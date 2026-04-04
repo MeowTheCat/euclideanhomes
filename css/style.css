@@ -52,7 +52,7 @@ body {
 .contact {
   max-width: 560px;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .contact h2 {
@@ -63,7 +63,7 @@ body {
 }
 
 .contact .tagline {
-  margin: 0 0 2rem;
+  margin: 0;
   color: rgb(150, 150, 150);
   font-size: 1rem;
 }
@@ -71,7 +71,7 @@ body {
 /* Footer */
 footer {
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 0.5rem 0.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   font-size: 0.875rem;
   color: rgb(150, 150, 150);
