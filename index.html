@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euclidean Homes - Building Modern Living Spaces</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <span class="brand">Euclidean Homes</span>
+      <h1>Building Modern Living Spaces</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p class="tagline" id="eemm">xixi.wang@euclideanhomes.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2026 Euclidean Homes - All Rights Reserved.</p>
+  </footer>
+
+  <div class="cookie-banner" id="cookie-banner">
+    <p><strong>This website uses cookies.</strong> We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.</p>
+    <button type="button" class="btn-accept" id="cookie-accept">Accept</button>
+  </div>
+
+  <script>
+    (function() {
+      if (localStorage.getItem('cookies-accepted')) {
+        document.getElementById('cookie-banner').classList.add('hidden');
+      }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('cookies-accepted', 'true');
+        document.getElementById('cookie-banner').classList.add('hidden');
+      });
+    })();
+  </script>
+</body>
+</html>
+
